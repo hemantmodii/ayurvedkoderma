@@ -1,0 +1,31 @@
+.card {
+   background-color: gray;
+   color: white;
+   border-radius: 30px;
+   height: 200px;
+   aspect-ratio: 1;
+   padding: 30px;
+   text-align: center;
+}
+
+.card:hover {
+   color: black;
+   background-color: white;
+   border: 1px inset black;
+}
+
+.card-container {
+   margin-inline: 40px;
+   justify-content: space-evenly;
+   align-items: center;
+   /* gap: 20px; */
+   display: flex;
+}
+
+.card-head {
+   font-size: 100px;
+}
+
+.card-subhead {
+   font-size: 20px;
+}
