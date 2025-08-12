@@ -140,9 +140,15 @@ body {
 }
 
 .hero-text .subtitle {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--secondary-green);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.hero-text .sub-subtitle {
+  font-size: 1.7rem;
+  color: var(--secondary-green);
+  margin-bottom: -0.3rem;
   font-weight: 500;
 }
 
