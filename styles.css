@@ -159,6 +159,21 @@ body {
   line-height: 1.8;
 }
 
+.nav-consult-btn {
+    background-color: #25D366; /* WhatsApp green */
+    color: white !important;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-consult-btn:hover {
+    background-color: #1ebe5b;
+    transform: translateY(-2px);
+}
+
+
 .cta-buttons {
   display: flex;
   gap: 1rem;
